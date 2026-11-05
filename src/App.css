@@ -1,0 +1,60 @@
+
+/* Global application layout */
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+/* Consistent box sizing */
+
+* {
+  box-sizing: border-box;
+}
+
+/* Smooth scrolling */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Buttons */
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+/* Form elements */
+
+input,
+textarea,
+select,
+button {
+  font-size: inherit;
+}
+
+/* Remove default link styling */
+
+a {
+  text-decoration: none;
+}
+
+/* Responsive images */
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Accessibility */
+
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 2px solid #6366f1;
+  outline-offset: 3px;
+}
